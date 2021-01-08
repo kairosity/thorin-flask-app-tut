@@ -6,7 +6,7 @@ if os.path.exists("env.py"):
 
 
 # creating an instance of the Flask class and storing it in a
-# var called app. The first param of the flask class is the name
+# variable called app. The first param of the flask class is the name
 # of the apps module. __name__ is a built in python var.
 # Flask needs __name__ so it knows where to look for templates & static files.
 app = Flask(__name__)
